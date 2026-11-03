@@ -1,0 +1,39 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+.DS_Store
+*.g.dart
+*.freezed.dart
+
+# Android: chave de assinatura e configurações da máquina NUNCA vão para o git
+android/key.properties
+android/local.properties
+*.jks
+*.keystore
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+android/captures/
+android/**/GeneratedPluginRegistrant.java
+
+# iOS
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/Runner/GeneratedPluginRegistrant.*
+**/xcuserdata/

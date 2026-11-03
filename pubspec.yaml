@@ -1,0 +1,35 @@
+name: jogo_dinossauro
+description: "Raptor Run — corredor infinito com um velociraptor, obstáculos e resgate diário."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+
+# Ícone do app, gerado a partir do próprio CharacterRenderer do jogo (ver
+# test/generate_icon_test.dart) — rodar `dart run flutter_launcher_icons`
+# depois de qualquer alteração nos PNGs de origem.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#17332B"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
