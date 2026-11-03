@@ -40,4 +40,4 @@ As notas completas de desenvolvimento, com a estrutura das pastas e as regras do
 
 ---
 
-Feito por [Daniel Dazevedo](https://dazevedo.dev) · DAZEVEDO
+Feito por [Daniel D'Azevedo](https://dazevedo.dev) · DAZEVEDO
